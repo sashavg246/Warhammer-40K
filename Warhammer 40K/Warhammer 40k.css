@@ -1,0 +1,63 @@
+body{
+	background-color: #FF0075;
+}
+
+.skitalits{
+	display: inline-flex;
+}
+
+.space_marine{
+	height: 200px;
+	width: 200px;
+	color: blue;
+}
+
+.ork{
+	height: 200px;
+	width: 200px;
+	color: green;
+
+}
+.tau{
+	height: 200px;
+	width: 200px;
+	color:yellow ;
+
+}
+
+.space_marine-img{
+	height: 100px;
+	width: 100px;
+}
+
+.space_marine-img:hover{
+	opacity: 75%;
+	cursor: pointer;
+	transition: .4s;
+}
+
+.ork-img{
+	height: 100px;
+	width: 100px;
+}
+
+.ork-img:hover{
+	opacity: 75%;
+	height: 100px;
+	width: 100px;
+	transition: .4s;
+}
+
+.tau-img{
+	height: 100px;
+	width: 100px;
+}
+
+.tau-img:hover{
+	opacity: 75%;
+	height: 100px;
+	width: 100px;
+	transition: .4s;
+	cursor: pointer;
+	transform: scaleY(2.0);
+}
